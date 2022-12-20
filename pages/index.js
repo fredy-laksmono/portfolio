@@ -86,7 +86,29 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto w-52 mt-20">
-            <Image src={flPic} />
+            <Image className=" rounded-full " src={flPic} />
+          </div>
+        </section>
+        <section className=" mt-4">
+          <div>
+            <h3 className="text-3xl py-1 mb-5"> Skills </h3>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              Programming Language: JavaScript, HTML/CSS, C#, PowerShell,
+              Python3
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              Frameworks and Libraries: React, Express, Mongoose, Sequelize,
+              Vue.js, Socket.io, framer-motion, Next.js, Tailwind-CSS
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              Database: SQL, MongoDB/Atlas, PostgresSQL
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              Tools/Environment: NodeJS, NPM, Git, GitHub, Visual Studio Code
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              Office tools: Microsoft Word/Excel/PowerPoint/Visio, Windows, Mac
+            </p>
           </div>
         </section>
         <section className=" mt-4">
@@ -94,8 +116,9 @@ export default function Home() {
             <h3 className="text-3xl py-1"> Portfolio </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               These projects are from Software Engineer Immersive course that I
-              took on Sept-Dec 2022. All of these projects have met the MVP and
-              some of the bonus part from the course. (Last update: 12/19/2022)
+              took on Sept-Dec 2022. All of these projects have met the MVP
+              requirement and some of the bonus part from the course. (Last
+              update: 12/20/2022)
             </p>
           </div>
           <div className="lg:grid grid-cols-3 gap-10">
