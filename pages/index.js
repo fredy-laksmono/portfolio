@@ -97,12 +97,18 @@ export default function Home() {
           </div>
           <div className="lg:grid grid-cols-3 gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
-              <Image
-                className=" mx-auto"
-                src={tictactoe}
-                width={200}
-                height={200}
-              />
+              <a
+                href="https://s3.us-west-1.amazonaws.com/tour.enistoria.com/u1_hw_tic_tac_toe/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className=" mx-auto"
+                  src={tictactoe}
+                  width={200}
+                  height={200}
+                />
+              </a>
               <h3 className=" text-lg font-medium pt-8 pb-2 ">
                 Fire & Ice Tic Tac Toe
               </h3>
@@ -149,12 +155,18 @@ export default function Home() {
               <p className=" text-teal-800 py-1 dark:text-teal-300">Node js</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
-              <Image
-                className=" mx-auto"
-                src={battleship}
-                width={200}
-                height={200}
-              />
+              <a
+                href="https://battleship-chaos.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className=" mx-auto"
+                  src={battleship}
+                  width={200}
+                  height={200}
+                />
+              </a>
               <h3 className=" text-lg font-medium pt-8 pb-2 ">
                 Battleship Chaos
               </h3>
@@ -167,9 +179,9 @@ export default function Home() {
               </p>
               <p className=" py-2">
                 {" "}
-                It's a battleship game with a twist. It's a multiplayer game
-                built using socket.io. All the players sharing the same board
-                and they all attack at the same turn.{" "}
+                It's a battleship game with a twist. Multiplayer game built
+                using socket.io. All the players sharing the same board and they
+                all attack at the same turn.{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
@@ -186,7 +198,7 @@ export default function Home() {
               <p className=" text-teal-800 py-1 dark:text-teal-300">React</p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">Node js</p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">
-                Scoket.io
+                Socket.io
               </p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">
                 Framer-motion
