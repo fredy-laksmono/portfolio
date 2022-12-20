@@ -179,9 +179,9 @@ export default function Home() {
               </p>
               <p className=" py-2">
                 {" "}
-                It's a battleship game with a twist. Multiplayer game built
-                using socket.io. All the players sharing the same board and they
-                all attack at the same turn.{" "}
+                A battleship game with a twist. Multiplayer game built using
+                socket.io. All the players sharing the same board and they all
+                attack at the same turn.{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
