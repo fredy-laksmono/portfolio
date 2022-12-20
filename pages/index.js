@@ -40,7 +40,10 @@ export default function Home() {
               <li>
                 <a
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  href="https://docs.google.com/document/d/1F1uPx87d7dqeFu2V08s_DC3sVyEGhqV0fvFlZxveSUs/edit?usp=share_link"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>
