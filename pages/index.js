@@ -11,7 +11,7 @@ import Image from "next/image";
 import tictactoe from "../public/FireIceTicTacToe.png";
 import bootcampBuddy from "../public/bootcamp-buddy-logo.png";
 import battleship from "../public/BattleshipChaos.jpg";
-import flPic from "../public/FL-PP-2022.jpg";
+import flPic from "../public/FL-profile-2022.png";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
