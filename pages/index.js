@@ -129,7 +129,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className=" mx-auto"
+                  className=" mx-auto  "
                   src={tictactoe}
                   width={200}
                   height={200}
@@ -150,19 +150,25 @@ export default function Home() {
               <p className=" text-teal-800 py-1 dark:text-teal-300">CSS</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
-              <Image
-                className=" mx-auto"
-                src={bootcampBuddy}
-                width={200}
-                height={200}
-              />
+              <a
+                href="https://bootcamp-buddy-fl.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className=" mx-auto"
+                  src={bootcampBuddy}
+                  width={200}
+                  height={200}
+                />
+              </a>
               <h3 className=" text-lg font-medium pt-8 pb-2 ">
                 Bootcamp Buddy
               </h3>
               <p className=" py-2">
                 {" "}
                 A review site for Bootcamp. This project is a team project
-                collaborate with another software engineer which we never work
+                collaborate with other software engineer which we never work
                 together before.{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
@@ -187,7 +193,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className=" mx-auto"
+                  className=" mx-auto rounded-full"
                   src={battleship}
                   width={200}
                   height={200}
