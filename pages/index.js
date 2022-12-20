@@ -4,6 +4,9 @@ import { Inter } from "@next/font/google";
 import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import flPic from "../public/FL_PP_2022.jpg";
+import tictactoe from "../public/FireIceTicTacToe.png";
+import bootcampBuddy from "../public/bootcamp-buddy-logo.png";
+import battleship from "../public/BattleshipChaos.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" bg-white px-10 ">
+      <main className=" bg-white px-10 md:px-20 lg:px-40">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-titleFont">DEVELOPEDBYFL</h1>
@@ -35,11 +38,11 @@ export default function Home() {
             </ul>
           </nav>
           <div className=" text-center p-10">
-            <h2 className=" text-5xl py-2 text-teal-600 font-medium">
+            <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Fredy Laksmono
             </h2>
-            <h3 className="text-2xl py-2">Software Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 ">
+            <h3 className="text-2xl py-2 md:text-3xl">Software Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
               Software Developer with a decade of experience as consultant in
               Identity Management and Enterprise Resource Planning. I have a
               passion for learning new technologies and building applications
@@ -53,6 +56,101 @@ export default function Home() {
           </div>
           <div className="relative mx-auto w-52 mt-20">
             <Image src={flPic} />
+          </div>
+        </section>
+        <section className=" mt-4">
+          <div>
+            <h3 className="text-3xl py-1"> Portfolio </h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
+              These projects are from Software Engineer Immersive course that I
+              took on Sept-Dec 2022. All of these projects have met the MVP and
+              some of the bonus part from the course. (Last update: 12/19/2022)
+            </p>
+          </div>
+          <div className="lg:grid grid-cols-3 gap-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
+              <Image
+                className=" mx-auto"
+                src={tictactoe}
+                width={200}
+                height={200}
+              />
+              <h3 className=" text-lg font-medium pt-8 pb-2 ">
+                Fire & Ice Tic Tac Toe
+              </h3>
+              <p className=" py-2">
+                {" "}
+                Tic Tac Toe Game with Fire and Ice Theme. There is single player
+                with basic ai and multiplayer option.{" "}
+              </p>
+              <h4 className=" py-4 text-teal-600">Technology used:</h4>
+              <p className=" text-teal-800 py-1 ">HTML</p>
+              <p className=" text-teal-800 py-1 ">CSS</p>
+            </div>
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
+              <Image
+                className=" mx-auto"
+                src={bootcampBuddy}
+                width={200}
+                height={200}
+              />
+              <h3 className=" text-lg font-medium pt-8 pb-2 ">
+                Bootcamp Buddy
+              </h3>
+              <p className=" py-2">
+                {" "}
+                A review site for Bootcamp. This project is a team project
+                collaborate with another software engineer which we never work
+                together before.{" "}
+              </p>
+              <h4 className=" py-4 text-teal-600">Technology used:</h4>
+              <p className=" text-teal-800 py-1 ">HTML</p>
+              <p className=" text-teal-800 py-1 ">CSS</p>
+              <p className=" text-teal-800 py-1 ">PostgreSQL</p>
+              <p className=" text-teal-800 py-1 ">Sequelize</p>
+              <p className=" text-teal-800 py-1 ">Express</p>
+              <p className=" text-teal-800 py-1 ">React</p>
+              <p className=" text-teal-800 py-1 ">Node js</p>
+            </div>
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
+              <Image
+                className=" mx-auto"
+                src={battleship}
+                width={200}
+                height={200}
+              />
+              <h3 className=" text-lg font-medium pt-8 pb-2 ">
+                Battleship Chaos
+              </h3>
+              <p className=" py-2">
+                {" "}
+                This is a capstone project where building a full stack app with
+                CRUD operation on both backend and frontend as the MVP
+                requirement. The game aspect is part of post MVP which currently
+                under development.{" "}
+              </p>
+              <p className=" py-2">
+                {" "}
+                It's a battleship game with a twist. It's a multiplayer game
+                built using socket.io. All the players sharing the same board
+                and they all attack at the same turn.{" "}
+              </p>
+              <h4 className=" py-4 text-teal-600">Technology used:</h4>
+              <p className=" text-teal-800 py-1 ">HTML</p>
+              <p className=" text-teal-800 py-1 ">CSS</p>
+              <p className=" text-teal-800 py-1 ">PostgreSQL</p>
+              <p className=" text-teal-800 py-1 ">Sequelize</p>
+              <p className=" text-teal-800 py-1 ">Express</p>
+              <p className=" text-teal-800 py-1 ">React</p>
+              <p className=" text-teal-800 py-1 ">Node js</p>
+              <p className=" text-teal-800 py-1 ">Scoket.io</p>
+              <p className=" text-teal-800 py-1 ">Framer-motion</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3></h3>
           </div>
         </section>
       </main>
