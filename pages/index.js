@@ -137,6 +137,7 @@ export default function Home() {
                 href="https://s3.us-west-1.amazonaws.com/tour.enistoria.com/u1_hw_tic_tac_toe/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
+                className=" inline-block "
               >
                 <Image
                   className=" mx-auto  "
@@ -161,9 +162,10 @@ export default function Home() {
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
-                href="https://github.com/fredy-laksmono/bootcamp-buddy-backend"
+                href="https://bootcamp-buddy-fl.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className=" inline-block "
               >
                 <Image
                   className=" mx-auto"
@@ -180,6 +182,14 @@ export default function Home() {
                 A review site for Bootcamp. This project is a team project
                 collaborate with other software engineer which we never work
                 together before.{" "}
+                <a
+                  href="https://github.com/fredy-laksmono/bootcamp-buddy-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" inline-block "
+                >
+                  <span className=" text-blue-400">(GitHub)</span>
+                </a>{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
@@ -198,9 +208,10 @@ export default function Home() {
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
-                href="https://github.com/fredy-laksmono/colonizer"
+                href="https://battleship-chaos.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className=" inline-block "
               >
                 <Image
                   className=" mx-auto rounded-full"
@@ -224,6 +235,14 @@ export default function Home() {
                 A battleship game with a twist. Multiplayer game built using
                 socket.io. All the players sharing the same board and they all
                 attack at the same turn.{" "}
+                <a
+                  href="https://github.com/fredy-laksmono/colonizer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" inline-block "
+                >
+                  <span className=" text-blue-400">(GitHub)</span>
+                </a>{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
