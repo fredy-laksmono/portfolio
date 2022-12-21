@@ -125,10 +125,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1"> Portfolio </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-              These projects are from Software Engineer Immersive course that I
-              took in Sept-Dec 2022. All of these projects have met the MVP
-              requirement and some of the bonus parts from the course. (Last
-              update: 12/20/2022)
+              These are the projects that I built during Software Engineer
+              Immersive in September-December 2022. (Last update: 12/20/2022)
             </p>
           </div>
           <div className="lg:grid grid-cols-3 gap-10">
@@ -151,8 +149,8 @@ export default function Home() {
               </h3>
               <p className=" py-2">
                 {" "}
-                Tic Tac Toe Game with Fire and Ice Theme. There is a
-                single-player with basic ai and a multiplayer option.{" "}
+                Tic Tac Toe Game with fire and ice theme. It has two options -
+                single-player with basic AI, or local multiplayer.{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
@@ -179,9 +177,8 @@ export default function Home() {
               </h3>
               <p className=" py-2">
                 {" "}
-                A review site for Bootcamp. This project is a team project
-                collaborating with other software engineers which whom we never
-                work together before.{" "}
+                A review site for Bootcamp. This is a team project collaborating
+                with several other software engineers.{" "}
                 <a
                   href="https://github.com/fredy-laksmono/bootcamp-buddy-backend"
                   target="_blank"
@@ -225,16 +222,16 @@ export default function Home() {
               </h3>
               <p className=" py-2">
                 {" "}
-                This is a capstone project where building a full stack app with
-                CRUD operation on both the backend and frontend as the MVP
-                requirement. The game aspect is part of post MVP which is
-                currently under development.{" "}
+                A capstone project building a full stack app with CRUD operation
+                on both the backend and frontend as the MVP requirement. The
+                game aspect is a part of post MVP which is currently under
+                development.{" "}
               </p>
               <p className=" py-2">
                 {" "}
                 A battleship game with a twist. Multiplayer game built using
-                socket.io. All the players share the same board and they all
-                attack at the same turn.{" "}
+                Socket.io. All the players share the same board. They all attack
+                at the same turn.{" "}
                 <a
                   href="https://github.com/fredy-laksmono/colonizer"
                   target="_blank"
