@@ -39,7 +39,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 shadow-lg rounded-md ml-8"
                   href="https://drive.google.com/file/d/1GuplIPZNudu73d9QWLsqCbdSUyUMBxV_/view?usp=share_link"
                   download
                   target="_blank"
@@ -93,21 +93,31 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 mb-5"> Skills </h3>
             <p className="text-md leading-8 text-gray-800 dark:text-white">
-              Programming Language: JavaScript, HTML/CSS, C#, PowerShell,
-              Python3
+              <span className=" text-lg font-bold ">Programming Language:</span>{" "}
+              JavaScript, HTML/CSS, C#, PowerShell, Python3
             </p>
             <p className="text-md leading-8 text-gray-800 dark:text-white">
-              Frameworks and Libraries: React, Express, Mongoose, Sequelize,
-              Vue.js, Socket.io, framer-motion, Next.js, Tailwind-CSS
+              <span className=" text-lg font-bold ">
+                Frameworks and Libraries:
+              </span>{" "}
+              React, Express, Mongoose, Sequelize, Vue.js, Socket.io,
+              framer-motion, Next.js, Tailwind-CSS
             </p>
             <p className="text-md leading-8 text-gray-800 dark:text-white">
-              Database: SQL, MongoDB/Atlas, PostgresSQL
+              <span className=" text-lg font-bold ">Database:</span> SQL,
+              MongoDB/Atlas, PostgresSQL
             </p>
             <p className="text-md leading-8 text-gray-800 dark:text-white">
-              Tools/Environment: NodeJS, NPM, Git, GitHub, Visual Studio Code
+              <span className=" text-lg font-bold ">Tools/Environment:</span>{" "}
+              NodeJS, NPM, Git, GitHub, Visual Studio Code
             </p>
             <p className="text-md leading-8 text-gray-800 dark:text-white">
-              Office tools: Microsoft Word/Excel/PowerPoint/Visio, Windows, Mac
+              <span className=" text-lg font-bold ">Office tools:</span>{" "}
+              Microsoft Word/Excel/PowerPoint/Visio, Windows, Mac
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">Soft skills:</span> Team
+              Building, Customer Service, Problem Solving, SCRUM Master
             </p>
           </div>
         </section>
@@ -151,7 +161,7 @@ export default function Home() {
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
-                href="https://bootcamp-buddy-fl.herokuapp.com/"
+                href="https://github.com/fredy-laksmono/bootcamp-buddy-backend"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -188,7 +198,7 @@ export default function Home() {
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
-                href="https://battleship-chaos.herokuapp.com/"
+                href="https://github.com/fredy-laksmono/colonizer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
