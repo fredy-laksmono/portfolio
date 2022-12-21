@@ -78,7 +78,7 @@ export default function Home() {
               <AiFillGithub />
             </a>
             <a
-              href="mailto:fredy.laksmono@gmail.com"
+              href="mailto:developedbyfl@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
