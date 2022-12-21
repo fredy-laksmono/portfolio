@@ -56,10 +56,10 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Software Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-              Software Developer with a decade of experience as consultant in
+              Software Developer with a decade of experience as a consultant in
               Identity Management and Enterprise Resource Planning. I have a
               passion for learning new technologies and building applications
-              that solve real world problems.
+              that solve real-world problems.
             </p>
           </div>
           <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
@@ -126,8 +126,8 @@ export default function Home() {
             <h3 className="text-3xl py-1"> Portfolio </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               These projects are from Software Engineer Immersive course that I
-              took on Sept-Dec 2022. All of these projects have met the MVP
-              requirement and some of the bonus part from the course. (Last
+              took in Sept-Dec 2022. All of these projects have met the MVP
+              requirement and some of the bonus parts from the course. (Last
               update: 12/20/2022)
             </p>
           </div>
@@ -151,8 +151,8 @@ export default function Home() {
               </h3>
               <p className=" py-2">
                 {" "}
-                Tic Tac Toe Game with Fire and Ice Theme. There is single player
-                with basic ai and multiplayer option.{" "}
+                Tic Tac Toe Game with Fire and Ice Theme. There is a
+                single-player with basic ai and a multiplayer option.{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
@@ -180,8 +180,8 @@ export default function Home() {
               <p className=" py-2">
                 {" "}
                 A review site for Bootcamp. This project is a team project
-                collaborate with other software engineer which we never work
-                together before.{" "}
+                collaborating with other software engineers which whom we never
+                work together before.{" "}
                 <a
                   href="https://github.com/fredy-laksmono/bootcamp-buddy-backend"
                   target="_blank"
@@ -226,14 +226,14 @@ export default function Home() {
               <p className=" py-2">
                 {" "}
                 This is a capstone project where building a full stack app with
-                CRUD operation on both backend and frontend as the MVP
-                requirement. The game aspect is part of post MVP which currently
-                under development.{" "}
+                CRUD operation on both the backend and frontend as the MVP
+                requirement. The game aspect is part of post MVP which is
+                currently under development.{" "}
               </p>
               <p className=" py-2">
                 {" "}
                 A battleship game with a twist. Multiplayer game built using
-                socket.io. All the players sharing the same board and they all
+                socket.io. All the players share the same board and they all
                 attack at the same turn.{" "}
                 <a
                   href="https://github.com/fredy-laksmono/colonizer"
