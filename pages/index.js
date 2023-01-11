@@ -123,7 +123,7 @@ export default function Home() {
         </section>
         <section className=" mt-4">
           <div>
-            <h3 className="text-3xl py-1"> Portfolio </h3>
+            <h3 className="text-3xl py-1"> Projects </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               These are the projects that I built during Software Engineer
               Immersive in September-December 2022. (Last update: 12/20/2022)
