@@ -55,73 +55,18 @@ export default function Home() {
               Fredy Laksmono
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Software Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-5xl mx-auto dark:text-white">
               Software Developer with a decade of experience as a consultant in
               Identity Management and Enterprise Resource Planning. I have a
               passion for learning new technologies and building applications
               that solve real-world problems.
             </p>
           </div>
-          <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a
-              href="https://www.linkedin.com/in/fredy-laksmono/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiFillLinkedin />
-            </a>
-            <a
-              href="https://github.com/fredy-laksmono"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiFillGithub />
-            </a>
-            <a
-              href="mailto:developedbyfl@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiFillMail />
-            </a>
-          </div>
           <div className="relative mx-auto w-52 mt-20">
             <Image className=" rounded-full " src={flPic} />
           </div>
         </section>
-        <section className=" mt-4">
-          <div>
-            <h3 className="text-3xl py-1 mb-5"> Skills </h3>
-            <p className="text-md leading-8 text-gray-800 dark:text-white">
-              <span className=" text-lg font-bold ">Programming Language:</span>{" "}
-              JavaScript, HTML/CSS, C#, PowerShell, Python3
-            </p>
-            <p className="text-md leading-8 text-gray-800 dark:text-white">
-              <span className=" text-lg font-bold ">
-                Frameworks and Libraries:
-              </span>{" "}
-              React, Express, Mongoose, Sequelize, Vue.js, Socket.io,
-              framer-motion, Next.js, Tailwind-CSS
-            </p>
-            <p className="text-md leading-8 text-gray-800 dark:text-white">
-              <span className=" text-lg font-bold ">Database:</span> SQL,
-              MongoDB/Atlas, PostgresSQL
-            </p>
-            <p className="text-md leading-8 text-gray-800 dark:text-white">
-              <span className=" text-lg font-bold ">Tools/Environment:</span>{" "}
-              NodeJS, NPM, Git, GitHub, Visual Studio Code
-            </p>
-            <p className="text-md leading-8 text-gray-800 dark:text-white">
-              <span className=" text-lg font-bold ">Office tools:</span>{" "}
-              Microsoft Word/Excel/PowerPoint/Visio, Windows, Mac
-            </p>
-            <p className="text-md leading-8 text-gray-800 dark:text-white">
-              <span className=" text-lg font-bold ">Soft skills:</span> Team
-              Building, Customer Service, Problem Solving, SCRUM Master
-            </p>
-          </div>
-        </section>
-        <section className=" mt-4">
+        <section className=" mt-4 py-20">
           <div>
             <h3 className="text-3xl py-1"> Projects </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
@@ -264,12 +209,64 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section className=" mt-4">
           <div>
-            <h3></h3>
+            <h3 className="text-3xl py-1 mb-5"> Skills </h3>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">Programming Language:</span>{" "}
+              JavaScript, HTML/CSS, C#, PowerShell, Python3
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">
+                Frameworks and Libraries:
+              </span>{" "}
+              React, Express, Mongoose, Sequelize, Vue.js, Socket.io,
+              framer-motion, Next.js, Tailwind-CSS
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">Database:</span> SQL,
+              MongoDB/Atlas, PostgresSQL
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">Tools/Environment:</span>{" "}
+              NodeJS, NPM, Git, GitHub, Visual Studio Code
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">Office tools:</span>{" "}
+              Microsoft Word/Excel/PowerPoint/Visio, Windows, Mac
+            </p>
+            <p className="text-md leading-8 text-gray-800 dark:text-white">
+              <span className=" text-lg font-bold ">Soft skills:</span> Team
+              Building, Customer Service, Problem Solving, SCRUM Master
+            </p>
           </div>
         </section>
       </main>
+      <footer className=" bg-white px-10 md:px-20 lg:px-40 py-20 dark:bg-slate-800 dark:text-white">
+        <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
+          <a
+            href="https://www.linkedin.com/in/fredy-laksmono/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillLinkedin />
+          </a>
+          <a
+            href="https://github.com/fredy-laksmono"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub />
+          </a>
+          <a
+            href="mailto:developedbyfl@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillMail />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
