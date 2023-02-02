@@ -241,31 +241,35 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <section className=" bg-white px-10 md:px-20 lg:px-40 py-20 dark:bg-slate-800 dark:text-white">
+          <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
+            <a
+              href="https://www.linkedin.com/in/fredy-laksmono/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin />
+            </a>
+            <a
+              href="https://github.com/fredy-laksmono"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub />
+            </a>
+            <a
+              href="mailto:developedbyfl@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillMail />
+            </a>
+          </div>
+        </section>
       </main>
-      <footer className=" bg-white px-10 md:px-20 lg:px-40 py-20 dark:bg-slate-800 dark:text-white">
-        <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-          <a
-            href="https://www.linkedin.com/in/fredy-laksmono/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillLinkedin />
-          </a>
-          <a
-            href="https://github.com/fredy-laksmono"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillGithub />
-          </a>
-          <a
-            href="mailto:developedbyfl@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillMail />
-          </a>
-        </div>
+      <footer className=" bg-white px-10 md:px-20 lg:px-40 pt-20 pb-5 dark:bg-slate-800 dark:text-white">
+        <p className="text-center">Created by Next.js & Tailwind CSS</p>
+        <p className="text-center">© 2023 DEVELOPEDFBYFL</p>
       </footer>
     </div>
   );
