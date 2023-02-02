@@ -268,7 +268,7 @@ export default function Home() {
         </section>
       </main>
       <footer className=" bg-white px-10 md:px-20 lg:px-40 pt-10 pb-5 dark:bg-slate-800 dark:text-white">
-        <p className="text-center">Created by Next.js & Tailwind CSS</p>
+        <p className="text-center">Created with Next.js & Tailwind CSS</p>
         <p className="text-center">© 2023 DEVELOPEDBYFL</p>
       </footer>
     </div>
