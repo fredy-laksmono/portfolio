@@ -11,6 +11,7 @@ import Image from "next/image";
 import tictactoe from "../public/FireIceTicTacToe.png";
 import bootcampBuddy from "../public/bootcamp-buddy-logo.png";
 import battleship from "../public/BattleshipChaos.jpg";
+import ifgfHou from "../public/IFGFHouFrontPage.png";
 import flPic from "../public/FL-profile-2022.png";
 import { useState } from "react";
 
@@ -70,38 +71,54 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1"> Projects </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-              These are the projects that I built during Software Engineer
-              Immersive in September-December 2022. (Last update: 12/20/2022)
+              Projects that I have worked on. (Last update: 04/03/2023)
             </p>
           </div>
           <div className="lg:grid grid-cols-3 gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
-                href="https://s3.us-west-1.amazonaws.com/tour.enistoria.com/u1_hw_tic_tac_toe/index.html"
+                href="https://ifgfhou.org"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" inline-block "
+                className=" inline-block  "
               >
                 <Image
-                  className=" mx-auto  "
-                  src={tictactoe}
+                  className=" w-48 h-48 "
+                  src={ifgfHou}
                   width={200}
                   height={200}
                 />
               </a>
               <h3 className=" text-lg font-medium pt-8 pb-2 ">
-                Fire & Ice Tic Tac Toe
+                IFGF Houston Site
               </h3>
               <p className=" py-2">
                 {" "}
-                Tic Tac Toe Game with fire and ice theme. It has two options -
-                single-player with basic AI, or local multiplayer.{" "}
+                Create and maintain website for IFGF Houston. Modern and
+                responsinve are few of the key point feature that are required.{" "}
+                <a
+                  href="https://github.com/fredy-laksmono/ifgf-houston"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" inline-block "
+                >
+                  <span className=" text-blue-400">(GitHub)</span>
+                </a>{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
               </h4>
-              <p className=" text-teal-800 py-1 dark:text-teal-300 ">HTML</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">HTML</p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">CSS</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">Express</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">React</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">Node js</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">
+                Tailwind-CSS
+              </p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">
+                Material UI
+              </p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
@@ -111,7 +128,7 @@ export default function Home() {
                 className=" inline-block "
               >
                 <Image
-                  className=" mx-auto"
+                  className=" w-48 h-48 "
                   src={bootcampBuddy}
                   width={200}
                   height={200}
@@ -148,64 +165,34 @@ export default function Home() {
               <p className=" text-teal-800 py-1 dark:text-teal-300">React</p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">Node js</p>
             </div>
+
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
-                href="https://battleship-chaos.herokuapp.com/"
+                href="https://s3.us-west-1.amazonaws.com/tour.enistoria.com/u1_hw_tic_tac_toe/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" inline-block "
               >
                 <Image
-                  className=" mx-auto rounded-full"
-                  src={battleship}
+                  className=" w-48 h-48 "
+                  src={tictactoe}
                   width={200}
                   height={200}
                 />
               </a>
               <h3 className=" text-lg font-medium pt-8 pb-2 ">
-                Battleship Chaos
+                Fire & Ice Tic Tac Toe
               </h3>
               <p className=" py-2">
                 {" "}
-                A capstone project building a full stack app with CRUD operation
-                on both the backend and frontend as the MVP requirement. The
-                game aspect is a part of post MVP which is currently under
-                development.{" "}
-              </p>
-              <p className=" py-2">
-                {" "}
-                A battleship game with a twist. Multiplayer game built using
-                Socket.io. All the players share the same board. They all attack
-                at the same turn.{" "}
-                <a
-                  href="https://github.com/fredy-laksmono/colonizer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" inline-block "
-                >
-                  <span className=" text-blue-400">(GitHub)</span>
-                </a>{" "}
+                Tic Tac Toe Game with fire and ice theme. It has two options -
+                single-player with basic AI, or local multiplayer.{" "}
               </p>
               <h4 className=" py-4 text-teal-600 dark:text-teal-200">
                 Technology used:
               </h4>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">HTML</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300 ">HTML</p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">CSS</p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">
-                PostgreSQL
-              </p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">
-                Sequelize
-              </p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">Express</p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">React</p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">Node js</p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">
-                Socket.io
-              </p>
-              <p className=" text-teal-800 py-1 dark:text-teal-300">
-                Framer-motion
-              </p>
             </div>
           </div>
         </section>
@@ -221,7 +208,7 @@ export default function Home() {
                 Frameworks and Libraries:
               </span>{" "}
               React, Express, Mongoose, Sequelize, Vue.js, Socket.io,
-              framer-motion, Next.js, Tailwind-CSS
+              framer-motion, Next.js, Tailwind-CSS, Material UI
             </p>
             <p className="text-md leading-8 text-gray-800 dark:text-white">
               <span className=" text-lg font-bold ">Database:</span> SQL,
