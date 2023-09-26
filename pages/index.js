@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import tictactoe from "../public/FireIceTicTacToe.png";
+import newLeaf from "../public/newLeaf_screenshots_2.jpg";
 import bootcampBuddy from "../public/bootcamp-buddy-logo.png";
 import battleship from "../public/BattleshipChaos.jpg";
 import ifgfHou from "../public/IFGFHouFrontPage.png";
@@ -71,7 +72,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1"> Projects </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-              Projects that I have worked on. (Last update: 04/03/2023)
+              Projects that I have worked on. (Last update: 09/25/2023)
             </p>
           </div>
           <div className="lg:grid grid-cols-3 gap-10">
@@ -166,7 +167,7 @@ export default function Home() {
               <p className=" text-teal-800 py-1 dark:text-teal-300">Node js</p>
             </div>
 
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
+            {/* <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
               <a
                 href="https://s3.us-west-1.amazonaws.com/tour.enistoria.com/u1_hw_tic_tac_toe/index.html"
                 target="_blank"
@@ -193,6 +194,53 @@ export default function Home() {
               </h4>
               <p className=" text-teal-800 py-1 dark:text-teal-300 ">HTML</p>
               <p className=" text-teal-800 py-1 dark:text-teal-300">CSS</p>
+            </div> */}
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 ">
+              <a
+                href="https://github.com/The-Third-Team/React-Vite-FinancialApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" inline-block "
+              >
+                <Image
+                  className=" w-48 h-48 "
+                  src={newLeaf}
+                  width={200}
+                  height={200}
+                />
+              </a>
+              <h3 className=" text-lg font-medium pt-8 pb-2 ">
+                New Leaf Financial App
+              </h3>
+              <p className=" py-2">
+                {" "}
+                This app is dedicated to helping the way you manage your
+                finances. The app is designed to simplify the complexities of
+                budgeting and expense tracking, by integrating budgeting
+                features with New Leaf Bank's App.{" "}
+                <a
+                  href="https://github.com/The-Third-Team/React-Vite-FinancialApp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" inline-block "
+                >
+                  <span className=" text-blue-400">(GitHub)</span>
+                </a>{" "}
+              </p>
+              <h4 className=" py-4 text-teal-600 dark:text-teal-200">
+                Technology used:
+              </h4>
+              <p className=" text-teal-800 py-1 dark:text-teal-300 ">React</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">
+                PostgreSQL
+              </p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">Tailwind</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">Express</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">NodeJS</p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">
+                Sequelize
+              </p>
+              <p className=" text-teal-800 py-1 dark:text-teal-300">Vite</p>
             </div>
           </div>
         </section>
