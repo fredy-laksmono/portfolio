@@ -217,7 +217,7 @@ export default function Home() {
                 This app is dedicated to helping the way you manage your
                 finances. The app is designed to simplify the complexities of
                 budgeting and expense tracking, by integrating budgeting
-                features with New Leaf Bank's App.{" "}
+                features with New Leaf Banks App.{" "}
                 <a
                   href="https://github.com/The-Third-Team/React-Vite-FinancialApp"
                   target="_blank"
